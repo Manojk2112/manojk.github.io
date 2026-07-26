@@ -123,9 +123,14 @@
         <nav class="glass border-b border-slate-800/60">
             <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-                <a href="#home" class="font-display font-bold text-xl tracking-tight">
-                    <span>Manoj<span class="text-cyan-400">.K</span>
-                </a>
+                <a href="#home"
+   class="font-display font-bold text-xl tracking-tight whitespace-nowrap">
+
+    <span class="text-cyan-400">&lt;</span>
+    <span class="text-white">Manoj</span>
+    <span class="text-cyan-400">.K/&gt;</span>
+
+</a>
 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center gap-8 text-sm text-slate-400">
@@ -242,95 +247,90 @@
 
 
             <!-- RIGHT PROFILE IMAGE -->
-            <div class="flex justify-center lg:justify-end">
+<div class="flex justify-center lg:justify-end">
 
-                <div class="relative">
+    <div class="relative">
 
-                    <!-- Outer Glow -->
-                    <div class="absolute -inset-6 rounded-[2rem]
-                                bg-cyan-400/10 blur-2xl">
-                    </div>
+        <!-- Outer Glow -->
+        <div class="absolute -inset-6 rounded-[2rem]
+                    bg-cyan-400/10 blur-2xl">
+        </div>
 
-                    <!-- Decorative Border -->
-                    <div class="absolute -inset-3 rounded-[2rem]
-                                border border-cyan-400/20
-                                rotate-3">
-                    </div>
+        <!-- Decorative Border -->
+        <div class="absolute -inset-3 rounded-[2rem]
+                    border border-cyan-400/20 rotate-3">
+        </div>
 
-                    <!-- Image Card -->
-                    <div class="relative w-[300px] h-[390px]
-                                md:w-[380px] md:h-[500px]
-                                rounded-[2rem] overflow-hidden
-                                border border-cyan-400/30
-                                bg-slate-900
-                                shadow-[0_0_60px_rgba(34,211,238,0.18)]">
+        <!-- Image Card -->
+        <div class="relative w-[300px] h-[390px]
+                    md:w-[380px] md:h-[500px]
+                    rounded-[2rem] overflow-hidden
+                    border border-cyan-400/30
+                    bg-slate-900
+                    shadow-[0_0_60px_rgba(34,211,238,0.18)]">
 
-                        <img src="Manophotocrop.jpeg"
-                             alt="Manoj K"
-                             class="w-full h-full object-cover object-center">
+            <img src="profile.jpg"
+                 alt="Manoj K"
+                 class="w-full h-full object-cover object-center">
 
-                        <!-- Image Gradient -->
-                        <div class="absolute inset-0
-                                    bg-gradient-to-t
-                                    from-slate-950/80
-                                    via-transparent
-                                    to-transparent">
-                        </div>
+            <!-- Image Gradient -->
+            <div class="absolute inset-0
+                        bg-gradient-to-t
+                        from-slate-950/90
+                        via-transparent
+                        to-transparent">
+            </div>
 
-                        <!-- Image Caption -->
-                        <div class="absolute bottom-0 left-3 right-0 p-6">
+            <!-- Image Caption -->
+            <div class="absolute bottom-0 left-0 right-0 p-6">
 
-                            <p class="text-cyan-400 text-sm font-mono">
-                                CURRENT STATUS
-                            </p>
+                <p class="text-cyan-400 text-sm font-mono">
+                    CURRENT STATUS
+                </p>
 
-                            <h3 class="text-white text-xl font-semibold mt-1">
-                                Building. Learning. Innovating.
-                            </h3>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Floating CGPA Card -->
-                    <div class="absolute -bottom-6 -left-8
-                                glass rounded-2xl px-5 py-4
-                                border border-cyan-400/20
-                                shadow-neon">
-
-                        <p class="text-xs text-slate-400">
-                            CURRENT CGPA
-                        </p>
-
-                        <p class="text-3xl font-bold text-cyan-400">
-                            8.4
-                        </p>
-
-                    </div>
-
-                    <!-- Floating ECE Card -->
-                    <div class="absolute -top-5 -right-8
-                                glass rounded-2xl px-5 py-4
-                                border border-cyan-400/20">
-
-                        <p class="text-xs text-slate-400">
-                            FIELD
-                        </p>
-
-                        <p class="text-lg font-semibold text-white">
-                            ECE
-                        </p>
-
-                    </div>
-
-                </div>
+                <h3 class="text-white text-xl font-semibold mt-1">
+                    Building. Learning. Innovating.
+                </h3>
 
             </div>
 
         </div>
 
+        <!-- Floating CGPA Card - MOVED TO RIGHT -->
+        <div class="absolute -bottom-8 -right-8
+                    glass rounded-2xl px-5 py-4
+                    border border-cyan-400/20
+                    shadow-neon z-20">
+
+            <p class="text-xs text-slate-400">
+                CURRENT CGPA
+            </p>
+
+            <p class="text-3xl font-bold text-cyan-400">
+                8.4
+            </p>
+
+        </div>
+
+        <!-- Floating ECE Card -->
+        <div class="absolute -top-5 -right-8
+                    glass rounded-2xl px-5 py-4
+                    border border-cyan-400/20 z-20">
+
+            <p class="text-xs text-slate-400">
+                FIELD
+            </p>
+
+            <p class="text-lg font-semibold text-white">
+                ECE
+            </p>
+
+        </div>
+
     </div>
 
+</div>
+            
 </section>
     <!-- ABOUT SECTION -->
 <section id="about" class="py-28">
